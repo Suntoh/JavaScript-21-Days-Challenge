@@ -31,10 +31,7 @@
     setElementInnerText('hours',Math.floor(unixTimeleft % day/ hour));
     setElementInnerText('minutes',Math.floor(unixTimeleft % hour/ minute));
     setElementInnerText('seconds',Math.floor(unixTimeleft % minute/second));
-  
   }
-
-
   
   function run(){
     setInterval(countDown, second)
